@@ -1,0 +1,36 @@
+.header {
+   
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #D1C7BD;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: dimgrey;
+  
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+    color: dimgrey;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;}
+
+    .logoImage{
+        width: 100px;
+        margin-left: 20px;
+        
+    }

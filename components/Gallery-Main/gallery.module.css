@@ -1,0 +1,19 @@
+.mainContainer{
+    background-color: #F7EDE2;
+    width: 100%;
+    height: 600px;
+}
+
+
+.slideWrapper{
+    padding-top: 2rem;
+    width:100%;
+    height: 600px;
+    overflow: hidden;
+}
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}

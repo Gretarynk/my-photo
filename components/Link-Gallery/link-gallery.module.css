@@ -1,0 +1,26 @@
+.linkWrapper{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: #b3aaa2;
+    border-left: 1px solid #D1C7BD;
+    padding-left: 1rem;
+    font-size: 12px;
+    cursor: pointer;
+   
+}
+.link:hover{
+    color:#222121 ;
+    scale: 0.5;
+}
+.list:hover{
+    scale: 1.1;
+    transition:ease-in 1s;
+}

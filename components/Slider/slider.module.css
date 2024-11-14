@@ -1,0 +1,18 @@
+.container{
+    background-color: blueviolet;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+.slideBox {
+   
+    position: relative; /* Ensure the parent has position relative */
+    width: 100%; /* Make sure it has width and height defined */
+    height: 100vh; /* Set a height for the container */
+    overflow: hidden; /* Optional: Prevent overflow */
+}
+.swiper-scrollbar {
+    background-color: rgba(0, 0, 0, 0.3); /* Optional: to make scrollbar visible */
+    height: 5px; /* Adjust the scrollbar thickness */
+}

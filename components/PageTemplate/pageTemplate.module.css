@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Use min-height to ensure wrapper takes full viewport */
+    width: 100%;
+    margin: 0;
+  }
+  
+  .content {
+    flex: 1; /* Allow the content to grow and fill available space */
+    width: 100%;
+   
+  }
+  
+
+  

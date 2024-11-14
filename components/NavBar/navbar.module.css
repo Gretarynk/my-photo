@@ -1,0 +1,24 @@
+.links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+    color: dimgrey;
+    cursor: pointer;
+    
+   
+}
+.links a{
+    list-style: none;
+    color: dimgrey;
+    text-decoration: none;
+    border-right: 1px solid dimgrey;
+    padding-right: 10px;
+}
+
+.links a:hover{
+    color: rgb(70, 68, 64);
+    scale: 1.2;
+    transition: ease-out 1s;
+    
+}
